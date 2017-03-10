@@ -13,10 +13,9 @@ title: bigreddmachine's page
 
 {% for post in site.posts %}
     <a href="{{ post.url }}" title="{{ post.title }}"><div class="blog-post">
-        <h3>{{ post.title }}</h3>
+        <h3>{{ post.date | date_to_string }} &gt; {{ post.title }}</h3>
         <hr>
         <div class="description">
-            <div class="date">{{ post.date | date_to_string }}</div>
             {{ post.content | strip_html | truncatewords: 50 }}
         </div>
     </div></a>

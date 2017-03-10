@@ -18,6 +18,10 @@ body {
     background-color: #FFFFFF;
 }
 
+h1 { margin: 10px 0; font-size: 1.6em; font-variant: small-caps; }
+h2 { margin:  5px 0; font-size: 1.4em; font-variant: small-caps; }
+h3 { margin:  5px 0; font-size: 1.2em; font-variant: small-caps; }
+
 a:link, a:visited, a:hover, a:active { text-decoration: none; }
 a:link, a:visited { color: #003399; }
 a:hover { color: #3366CC; }
@@ -43,6 +47,7 @@ footer {
     height: 60px;
     font-size: 10pt;
     background-color: #E0E0E0;
+    overflow: hidden;
 }
 
 .page-content {
@@ -63,6 +68,9 @@ footer .content-container { padding: 10px 20px; }
 
 .center { text-align: center; }
 
-@media screen and (max-width: 440px) {
-    footer { font-size: 9pt; overflow: hidden; }
+.blog-post {
+    margin: 0 20px;
+    padding: 10px;
+    width: auto;
+    border: 1px solid #E0E0E0;
 }
