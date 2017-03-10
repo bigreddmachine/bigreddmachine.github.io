@@ -18,9 +18,9 @@ body {
     background-color: #FFFFFF;
 }
 
-h1 { margin: 10px 0; font-size: 1.6em; font-variant: small-caps; color: #505050; }
-h2 { margin:  5px 0; font-size: 1.4em; font-variant: small-caps; color: #505050; }
-h3 { margin:  5px 0; font-size: 1.2em; font-variant: small-caps; color: #505050; }
+h1 { margin: 10px 0; font-size: 1.6em; color: #505050; }
+h2 { margin:  5px 0; font-size: 1.4em; color: #505050; }
+h3 { margin:  5px 0; font-size: 1.2em; color: #505050; }
 
 a:link, a:visited, a:hover, a:active { text-decoration: none; }
 a:link, a:visited { color: #003399; }
