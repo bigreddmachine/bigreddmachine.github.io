@@ -59,3 +59,5 @@ footer {
 header .content-container { padding: 0; }
 header .content-container h1 { margin: 0; }
 header .content-container h1 a { color: #FFFFFF; }
+
+.center { text-align: center; }
