@@ -68,7 +68,7 @@ footer .content-container { padding: 10px 20px; overflow: hidden; }
 .center { text-align: center; }
 
 .blog-post {
-    margin: 0 20px;
+    margin: 0;
     padding: 10px;
     width: auto;
     border: 1px solid #E0E0E0;
