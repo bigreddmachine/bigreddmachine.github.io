@@ -18,9 +18,9 @@ body {
     background-color: #FFFFFF;
 }
 
-h1 { margin: 10px 0; font-size: 1.6em; font-variant: small-caps; }
-h2 { margin:  5px 0; font-size: 1.4em; font-variant: small-caps; }
-h3 { margin:  5px 0; font-size: 1.2em; font-variant: small-caps; }
+h1 { margin: 10px 0; font-size: 1.6em; font-variant: small-caps; color: #990000; }
+h2 { margin:  5px 0; font-size: 1.4em; font-variant: small-caps; color: #990000; }
+h3 { margin:  5px 0; font-size: 1.2em; font-variant: small-caps; color: #505050; }
 
 a:link, a:visited, a:hover, a:active { text-decoration: none; }
 a:link, a:visited { color: #003399; }
@@ -35,19 +35,18 @@ header, footer, .page-content {
 }
 
 header {
-    height: 100px;
+    height: 96px;
     line-height: 100px;
-    text-align: center;
     font-weight: bold;
     font-family: 'Century Gothic', CenturyGothic, AppleGothic, sans-serif;
     background-color: #333333;
+    border-bottom: 4px solid #990000;
 }
 
 footer {
     height: 60px;
-    font-size: 10pt;
+    font-size: 13pt;
     background-color: #E0E0E0;
-    overflow: hidden;
 }
 
 .page-content {
@@ -62,9 +61,9 @@ footer {
 }
 
 header .content-container { padding: 0; }
-header .content-container h1 { margin: 0; }
+header .content-container h1 { margin: 0; font-size: 2em; }
 header .content-container h1 a { color: #FFFFFF; }
-footer .content-container { padding: 10px 20px; }
+footer .content-container { padding: 10px 20px; overflow: hidden; }
 
 .center { text-align: center; }
 
