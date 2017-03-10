@@ -18,6 +18,11 @@ body {
     background-color: #FFFFFF;
 }
 
+a:link, a:visited, a:hover, a:active { text-decoration: none; }
+a:link, a:visited { color: #003399; }
+a:hover { color: #3366CC; }
+a:active { color: #6699FF; }
+
 header, footer, .page-content {
     width: 100%;
     max-width: 1000px;
@@ -32,6 +37,7 @@ header {
     text-align: center;
     font-weight: bold;
     font-family: 'Century Gothic', CenturyGothic, AppleGothic, sans-serif;
+    background-color: #333333;
 }
 
 header a { color: #FFFFFF; }
@@ -54,8 +60,3 @@ footer {
     padding: 20px;
     width: auto;
 }
-
-a:link, a:visited, a:hover, a:active { text-decoration: none; }
-a:link, a:visited { color: #003399; }
-a:hover { color: #3366CC; }
-a:active { color: #6699FF; }
