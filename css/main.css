@@ -39,8 +39,6 @@ header {
     background-color: #333333;
 }
 
-header a { color: #FFFFFF; }
-
 footer {
     height: 60px;
     font-size: 10pt;
@@ -57,3 +55,7 @@ footer {
     width: auto;
     max-width: 1000px;
 }
+
+header .content-container { padding: 0; }
+header .content-container h1 { margin: 0; }
+header .content-container h1 a { color: #FFFFFF; }
