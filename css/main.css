@@ -73,3 +73,8 @@ footer .content-container { padding: 10px 20px; overflow: hidden; }
     width: auto;
     border: 1px solid #E0E0E0;
 }
+
+.donation-address {
+    font-size: 11pt;
+    font-family: monospace;
+}
