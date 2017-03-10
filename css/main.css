@@ -25,13 +25,12 @@ a:active { color: #6699FF; }
 
 header, footer, .page-content {
     width: 100%;
-    max-width: 1000px;
-    margin: 0 auto;
+    margin: 0;
+    padding: 0;
     display: block;
 }
 
 header {
-    margin-top: 20px;
     height: 100px;
     line-height: 100px;
     text-align: center;
@@ -43,20 +42,18 @@ header {
 header a { color: #FFFFFF; }
 
 footer {
-    height: 80px;
-    line-height: 40px;
-    text-align: center;
-    font-size: 12pt;
-    margin-bottom: 20px;
+    height: 60px;
+    font-size: 10pt;
     background-color: #E0E0E0;
 }
 
 .page-content {
-    min-height: calc( 100vh - 220px );
+    min-height: calc( 100vh - 160px );
 }
 
 .content-container {
     margin: 0 auto;
     padding: 20px;
     width: auto;
+    max-width: 1000px;
 }
