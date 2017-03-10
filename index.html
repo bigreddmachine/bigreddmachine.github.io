@@ -1,0 +1,23 @@
+---
+layout: default
+title: bigreddmachine's page
+---
+
+<h2>About this site:</h2>
+
+<p>This is my personal website where I occasionally post about various things that interest me.</p>
+
+<p>This site uses Jekyll + GitHub Pages to host a static blog-like website.</p>
+
+<h2>Blog Posts:</h2>
+
+{% for post in site.posts %}
+    <a href="{{ post.url }}" title="{{ post.title }}"><div class="blog-post">
+        <h3>{{ post.title }}</h3>
+        <hr>
+        <div class="description">
+            <div class="date">{{ post.date | date_to_string }}</div>
+            {{ post.content | strip_html | truncatewords: 50 }}
+        </div>
+    </div></a>
+{% endfor %}
