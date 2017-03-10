@@ -53,11 +53,16 @@ footer {
     margin: 0 auto;
     padding: 20px;
     width: auto;
-    max-width: 1000px;
+    max-width: 900px;
 }
 
 header .content-container { padding: 0; }
 header .content-container h1 { margin: 0; }
 header .content-container h1 a { color: #FFFFFF; }
+footer .content-container { padding: 10px 20px; }
 
 .center { text-align: center; }
+
+@media screen and (max-width: 440px) {
+    footer { font-size: 9pt; overflow: hidden; }
+}
