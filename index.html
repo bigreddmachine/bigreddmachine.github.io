@@ -17,7 +17,7 @@ title: bigreddmachine.github.io
 <h2>Blog Posts:</h2>
 
 {% for post in site.posts %}
-    <a href="{{ post.url }}" title="{{ post.title }}"><div class="blog-post">
+    <a href="{{ post.url }}" title="{{ post.title }}"><div class="blog-post-list-item">
         <h3>{{ post.date | date_to_string }} &gt; {{ post.title }}</h3>
         <a href="https://bigreddmachine.github.io{{ post.url }}#disqus_thread">0 Comments</a>
         <hr>

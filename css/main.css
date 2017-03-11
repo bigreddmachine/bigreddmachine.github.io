@@ -27,7 +27,7 @@ a:link, a:visited { color: #003399; }
 a:hover { color: #3366CC; }
 a:active { color: #6699FF; }
 
-hr { border: 1px solid #E0E0E0; }
+hr { border: 1px solid #E0E0E0; margin: 5px 0; }
 
 header, footer, .page-content {
     width: 100%;
@@ -67,8 +67,14 @@ header .content-container h1 { margin: 0; font-size: 2em; }
 header .content-container h1 a { color: #FFFFFF; }
 footer .content-container { padding: 10px 20px; overflow: hidden; }
 
+/* Blog Post Styling */
+p.blog-post-header { margin: 5px 0; }
+
 .center { text-align: center; }
 .black { color: #000000; }
+.red { color: #B20000; }
+.green { color: #00B200; }
+.blue { color: #0000B2; }
 
 .highlighter-rouge {
     background-color: #E0E0E0;
@@ -83,7 +89,8 @@ footer .content-container { padding: 10px 20px; overflow: hidden; }
     font-size: 0.75em;
 }
 
-.blog-post {
+/* Index Page Styling */
+.blog-post-list-item {
     margin: 0;
     padding: 10px;
     width: auto;
