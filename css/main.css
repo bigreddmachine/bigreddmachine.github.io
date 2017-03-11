@@ -70,9 +70,10 @@ footer .content-container { padding: 10px 20px; overflow: hidden; }
 .center { text-align: center; }
 .black { color: #000000; }
 
-.code {
-    background-color: #E0E0E0;
+.terminal {
+    background-color: #000000;
     font-family: monospace;
+    color: #32CD32;
 }
 
 .blog-post {
