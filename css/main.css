@@ -104,5 +104,10 @@ p.blog-post-header { margin: 5px 0; }
 
 @media screen and (max-width: 540px) {
     html { font-size: 16pt; }
-    header .content-container h1 { font-size: 1.75em; }
+    header .content-container h1 { font-size: 1.4em; text-align: center; }
+}
+
+@media screen and (max-width: 360px) {
+    html { font-size: 16pt; }
+    header .content-container h1 { font-size: 1.15em; }
 }
