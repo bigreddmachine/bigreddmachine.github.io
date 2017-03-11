@@ -1,0 +1,13 @@
+---
+layout: default
+---
+
+<h3><span class="black">Blog:</span> {{ page.title }}</h3>
+<p class="gray">
+    {{ page.date | date_to_string }}
+    {% if page.comments %} • <a href="https://bigreddmachine.github.io{{ page.url }}#disqus_thread">0 Comments</a>{% endif %}
+</p>
+<hr>
+{{ page.content }}
+
+{% include disqus.html %}

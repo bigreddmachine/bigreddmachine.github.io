@@ -2,6 +2,7 @@
 layout: default
 title: Hello World
 date: 2017-03-09
+comments: true
 ---
 
-## Hello World :)
+What a beautiful day to be alive!

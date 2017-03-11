@@ -19,6 +19,7 @@ title: bigreddmachine.github.io
 {% for post in site.posts %}
     <a href="{{ post.url }}" title="{{ post.title }}"><div class="blog-post">
         <h3>{{ post.date | date_to_string }} &gt; {{ post.title }}</h3>
+        <a href="https://sgeos.github.io{{ post.url }}#disqus_thread">0 Comments</a>
         <hr>
         <div class="description">
             {{ post.content | strip_html | truncatewords: 50 }}
