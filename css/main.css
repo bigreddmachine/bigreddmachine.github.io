@@ -65,7 +65,7 @@ footer {
 header .content-container { padding: 0; }
 header .content-container h1 { margin: 0; font-size: 2em; }
 header .content-container h1 a { color: #FFFFFF; }
-footer .content-container { padding: 10px 0; margin: 0 20px; overflow: hidden; }
+footer .content-container { padding: 10px 0; width: calc( 100% - 40px ); overflow: hidden; }
 
 /* Blog Post Styling */
 p.blog-post-header { margin: 5px 0; }
@@ -109,4 +109,5 @@ p.blog-post-header { margin: 5px 0; }
 
 @media screen and (max-width: 400px) {
     header .content-container h1 { font-size: 1.15em; }
+    footer { font-size: 9pt; }
 }
