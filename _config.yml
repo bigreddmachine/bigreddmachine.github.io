@@ -1,5 +1,8 @@
 title: bigreddmachine.github.io
 markdown: kramdown
-gems:
+kramdown:
+  input: GFM
+  syntax_highlighter: rouge
+plugins:
     - github-pages
-xmr: 4AL2cmmrVC41if2TzxfYUKFoVF8xnkzszFX7KVS21zh1HgMWWTfa8wh23xBWLG2htS42LaqfQGgz69vVWA5uZGhaNLc72jB
+xmr: 42CnLwEuuhrHkn6tmVHD8T4qHfji988ciLxGv9PsauDcABYYxNTHtf9UhAkr79z2G7M5r93YbimeJ6m6hkwn2AX27snNG5q

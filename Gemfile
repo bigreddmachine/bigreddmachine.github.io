@@ -1,7 +1,9 @@
-source 'https://rubygems.org'
+# frozen_string_literal: true
 
-require 'json'
-require 'open-uri'
-versions = JSON.parse(open('https://pages.github.com/versions.json').read)
+source "https://rubygems.org"
 
-gem 'github-pages', versions['github-pages']
+git_source(:github) {|bigreddmachine.github.io| "https://github.com/bigreddmachine/bigreddmachine.github.io" }
+
+# gem "rails"
+
+gem "jekyll", "~> 3.9"

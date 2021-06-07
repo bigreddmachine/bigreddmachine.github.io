@@ -4,25 +4,20 @@ title: bigreddmachine.github.io
 ---
 
 <p>
-    I'm a random person with an interest in cryptocurrencies, data science, and
-    baseball. This is my personal website where I occasionally post about various
-    things that interest me. You can get in touch with me on reddit at
-    <a href="https://www.reddit.com/u/bigreddmachine">/u/bigreddmachine</a>. This
-    site uses <a target="_blank" href="https://pages.github.com/">GitHub Pages</a>
-    + <a target="_blank" href="https://jekyllrb.com/">Jekyll</a> to host a static
-    blog. Source code is available on
-    <a href="https://github.com/bigreddmachine/bigreddmachine.github.io">GitHub</a>.
+    I'm a random person with an interest in cryptocurrencies, data science, and baseball. You may know me from the <a href="https://moneromonitor.libsyn.com/">Monero Monitor Podcast</a> or various other contributions to the Monero community. This is my personal website where I occasionally post about various things that interest me. You can get in touch with me on reddit (<a href="https://www.reddit.com/u/bigreddmachine">/u/bigreddmachine</a>) or Twitter (<a href="https://www.twitter.com/moneromonitor">@MoneroMonitor</a>).
+</p>
+<p>
+    This site uses <a target="_blank" href="https://pages.github.com/">GitHub Pages</a> + <a target="_blank" href="https://jekyllrb.com/">Jekyll</a> to host a static blog. Source code is available on <a href="https://github.com/bigreddmachine/bigreddmachine.github.io">GitHub</a>.
 </p>
 
-<h2>Blog Posts:</h2>
+<h2 class="section-break">Blog Posts:</h2>
 
 {% for post in site.posts %}
-    <a href="{{ post.url }}" title="{{ post.title }}"><div class="blog-post-list-item">
-        <h3>{{ post.date | date_to_string }} &gt; {{ post.title }}</h3>
-        <a href="https://bigreddmachine.github.io{{ post.url }}#disqus_thread">0 Comments</a>
-        <hr>
-        <div class="description">
-            {{ post.content | strip_html | truncatewords: 50 }}
-        </div>
-    </div></a>
+<a href="{{ post.url }}" title="{{ post.title }}"><div class="blog-post-list-item">
+    <h3>{{ post.date | date_to_string }} &gt; {{ post.title }}</h3>
+    <hr>
+    <div class="description">
+        {{ post.content | markdownify | strip_html | truncatewords: 50 }}
+    </div>
+</div></a>
 {% endfor %}

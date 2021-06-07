@@ -10,4 +10,17 @@ layout: default
 <hr>
 {{ page.content }}
 
-{% include disqus.html %}
+
+{% if page.xmr %}
+<div class="center section-break">
+    <h3>Like this post? Send some XMR to show your support:</h3>
+    <p class="donation-address">
+        <a href="monero:{{ page.xmr }}">
+            {{ page.xmr }}
+            {% if page.xmrqr %}
+            <br><img src="{{ page.xmrqr }}" height="120" />
+            {% endif %}
+        </a>
+    </p>
+</div>
+{% endif %}
