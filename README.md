@@ -1,6 +1,6 @@
 # bigreddmachine.github.io
 
-My personal website where I occasionally post about various things that interest me.
+My [personal website](https://bigreddmachine.github.io) where I occasionally post about various things that interest me.
 
 This site uses Jekyll + GitHub Pages to host a static blog-like website.
 
