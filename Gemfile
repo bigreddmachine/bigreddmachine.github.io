@@ -2,8 +2,14 @@
 
 source "https://rubygems.org"
 
-git_source(:github) {|bigreddmachine.github.io| "https://github.com/bigreddmachine/bigreddmachine.github.io" }
-
 # gem "rails"
 
 gem "jekyll", "~> 3.9"
+
+group :jekyll_plugins do
+  gem 'jekyll-sitemap'
+  gem 'jekyll-feed'
+  gem 'jekyll-seo-tag'
+  gem "kramdown-parser-gfm"
+  gem "webrick"
+end
